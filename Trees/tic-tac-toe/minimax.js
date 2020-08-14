@@ -107,7 +107,7 @@ const checkWinner = (grid) => {
         }
     }
 
-    if (winner == null && openSpots == 0) {
+    if (winner == null && availableSpots == 0) {
         return players.TIE;
     } else {
         return winner;
