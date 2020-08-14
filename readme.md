@@ -1,4 +1,4 @@
-#[...Knowledge] (Spreading the knowledge)
+# [...Knowledge] (Spreading the knowledge)
 
 ## Topics
 * 01 - Learning Trees with TicTacToe @AlexaCampusano
