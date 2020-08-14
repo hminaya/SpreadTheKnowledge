@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <script src="minimax.js"></script>
+    <script src="node.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <button onclick="clearBoard()">Clear Board!</button>
+        <div class="play-area">
+            <div id="block_00" class="block" onclick="nextMove(0, 0, 'block_00')"></div>
+            <div id="block_01" class="block" onclick="nextMove(0, 1, 'block_01')"></div>
+            <div id="block_02" class="block" onclick="nextMove(0, 2, 'block_02')"></div>
+            <div id="block_10" class="block" onclick="nextMove(1, 0, 'block_10')"></div>
+            <div id="block_11" class="block" onclick="nextMove(1, 1, 'block_11')"></div>
+            <div id="block_12" class="block" onclick="nextMove(1, 2, 'block_12')"></div>
+            <div id="block_20" class="block" onclick="nextMove(2, 0, 'block_20')"></div>
+            <div id="block_21" class="block" onclick="nextMove(2, 1, 'block_21')"></div>
+            <div id="block_22" class="block" onclick="nextMove(2, 2, 'block_22')"></div>
+        </div>
+        <div id="results"></div>
+    </div>
+</body>
+
+</html>
