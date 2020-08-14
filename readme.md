@@ -4,4 +4,4 @@
 * 01 - Learning Trees with TicTacToe @AlexaCampusano
 * 02 - TBD Arrays @hminaya
 * 03 - Queue/Stacks @raymondcoplin
-* 04 - Big(o) 
+* 04 - Big(o) @GianCastle
